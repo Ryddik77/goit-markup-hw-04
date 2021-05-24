@@ -205,7 +205,7 @@ body {
 /* ========== portfolio ========== */
 .main-portfolio {
 padding-top: 94px;
-padding-bottom: 50px;
+padding-bottom: 94px;
 }
 
 .portfolio {
@@ -226,6 +226,7 @@ padding-bottom: 50px;
   background: #f5f4fa;
   border: 0;
   padding: 6px 22px;
+  margin-bottom: 34px;
 }
 
 .portfolio-link:hover,
@@ -234,10 +235,6 @@ padding-bottom: 50px;
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px
-}
-
-.main-projects {
- padding-bottom: 94px;
 }
 
 .team-projects {
@@ -286,11 +283,7 @@ padding-bottom: 50px;
 .about {
   padding-top: 94px;
 }
-.about-icon {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 55px; 
-}
+
 .about-skills {
   display: flex;
   justify-content: space-between;
@@ -298,6 +291,18 @@ padding-bottom: 50px;
 
 .about-skills-content {
   width: 270px; 
+}
+
+.container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #E5E5E5; 
+  border-radius: 4px;
+  margin-bottom: 30px;
+  
 }
 
 .about-title {
@@ -325,7 +330,9 @@ padding-bottom: 50px;
 .team {
 padding-top: 94px;
 padding-bottom: 94px;
+background: #E5E5E5;
 }
+
 
 .team-list {
   display: flex;
@@ -340,6 +347,7 @@ padding-bottom: 94px;
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
+  background: #FFFFFF;
   box-shadow:
   0px 1px 3px rgba(0, 0, 0, 0.12), 
   0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -395,13 +403,15 @@ padding-bottom: 94px;
 /* ========== END TEAM ========== */
 
 /* ========== CLIENTS ========== */
-.container-clients {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .clients-list {
   display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .clients-item {
@@ -471,12 +481,12 @@ margin-bottom: 9px;
 
 .title-footer {
   font-family: var(--main-font);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: #FFFFFF;
 }
 
 .footer-social-list {
